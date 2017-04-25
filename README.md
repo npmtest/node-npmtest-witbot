@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-witbot/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-witbot/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-witbot/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-witbot/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-witbot/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-witbot/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-witbot/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-witbot/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-witbot/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-witbot/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-witbot/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-witbot/build/coverage.html/index.html)
 
@@ -35,17 +35,24 @@
 ```json
 
 {
-    "name": "witbot",
-    "version": "2.1.0",
+    "author": {
+        "name": "Mike Brevoort"
+    },
+    "bugs": {
+        "url": "https://github.com/BeepBoopHQ/witbot/issues"
+    },
+    "dependencies": {
+        "node-wit": "^2.0.0"
+    },
     "description": "A simple node.js module for making bots with wit.ai",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "ced9480fd554864ffb54cc78173faedfb2c2d416",
+        "tarball": "https://registry.npmjs.org/witbot/-/witbot-2.1.0.tgz"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/BeepBoopHQ/witbot.git"
-    },
+    "gitHead": "6c026362934a01701f3e2dc8169f93e817299f7d",
+    "homepage": "https://github.com/BeepBoopHQ/witbot#readme",
     "keywords": [
         "slack",
         "wit",
@@ -54,15 +61,24 @@
         "bots",
         "slackbot"
     ],
-    "author": "Mike Brevoort",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/BeepBoopHQ/witbot/issues"
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "mbrevoort"
+        }
+    ],
+    "name": "witbot",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BeepBoopHQ/witbot.git"
     },
-    "homepage": "https://github.com/BeepBoopHQ/witbot#readme",
-    "dependencies": {
-        "node-wit": "^2.0.0"
-    }
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
